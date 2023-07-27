@@ -368,14 +368,19 @@ body {
 
 .wishes {
     position: relative;
-    top: -100px;
+    /*top: -260px;*/
     margin: 25px;
 }
 
 p {
-    font-family: 'Brush Script MT', Helvetica, serif;
+    font-family: 'Brush Script MT', Arial, ui-serif;
     color: #333;
 }
+
+ img{
+     max-width: 100%;
+     display: block; /* remove extra space below image */
+ }
 
 .name {
     margin-left: 150px;
